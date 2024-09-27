@@ -46,7 +46,7 @@ with col4:
 with col5: 
     wickets = st.number_input('Wickets out')
 
-runs_left = balls_left = wickets = crr = rrr = 0
+runs_left = balls_left = crr = rrr = 0
 
 if st.button('Predict Probability'):
     runs_left = target - score
